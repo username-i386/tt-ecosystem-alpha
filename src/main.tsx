@@ -18,7 +18,7 @@ const router = createBrowserRouter(
             element: <CardPage />,
         },
     ],
-    { basename: '/tt-ecosystem-alpha' },
+    { basename: import.meta.env.BASE_URL },
 );
 
 createRoot(document.getElementById('root')!).render(
